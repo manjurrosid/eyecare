@@ -1,0 +1,593 @@
+.ebook-pdf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-row1 .social-inner-wrap .fa-google:before {
+    content: "\f3c5";
+}
+
+.sources-pg.ry-left a {
+    text-decoration: underline !important;
+}
+
+@media screen and (max-width: 768px) {
+    .sources-pg.ry-left table.pricing {
+        width: 100%;
+    } 
+}
+
+@media (max-width: 768px){
+	.module-1 .ry-box-left {width: 100%;
+	}
+}
+.module-1 {
+    margin: 30px 0;
+}
+.details-modal {
+    background: #ffffff;
+    border-radius: 0.5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    left: 50%;
+    max-width: 90%;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30em;
+    text-align: left;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-modal .details-modal-close {
+    align-items: center;
+    color: #111827;
+    display: flex;
+    height: 4.5em;
+    justify-content: center;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.5em;
+}
+
+.details-modal .details-modal-close svg {
+    display: block;
+}
+
+.details-modal .details-modal-title {
+    color: #111827;
+    padding: 1.5em 2em;
+    pointer-events: all;
+    position: relative;
+    width: calc(100% - 4.5em);
+}
+
+.details-modal .details-modal-title h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.details-modal .details-modal-content {
+    border-top: 1px solid #e0e0e0;
+    padding: 2em;
+    pointer-events: all;
+    overflow: auto;
+}
+
+.details-modal-overlay {
+    transition: opacity 0.2s ease-out;
+    pointer-events: none;
+    background: rgba(15, 23, 42, 0.8);
+    position: fixed;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+details[open] .details-modal-overlay {
+    pointer-events: all;
+    opacity: 0.5;
+}
+
+details summary {
+    list-style: none;
+}
+
+details summary:focus {
+    outline: none;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+@media (max-width: 991px) {}
+@media only screen and (max-width: 768px){
+	.swiper-slide {width: 100% !important;}
+	.testimonials-wrapper .testimonials-block .carousel-control {display: none;}
+	.carousel-control.left, .carousel-control.right {background-image: unset; background-image: unset;background-repeat: unset;}
+	.carousel-control, .carousel-control:hover, .carousel-control:focus {color: #ffffff;}}
+#services-box a{ margin:0 auto;}
+#articles .ry-btn-primary, 
+#articles .ry-btn-primary:after {color: #ffffff;}
+#articles .ry-btn-primary:hover, 
+#articles .ry-btn-primary:hover:after {color: #ffffff;}
+body {font-family: Poppins !important;}
+.ry-btn:after {display:none;}
+.btn, .ry-btn, .ry-btn-primary, .ry-btn-secondary {font-family: 'Poppins';z-index:99;}
+.ry-btn {height: 60px;display: flex;align-items: center;justify-content: center;padding-left: 25px;padding-right: 25px;max-width: max-content;color: #ffffff !important;background: #252F6A !important;font-size: 20px !important;}
+.ry-btn-primary:hover {background: #01BBDD !important;color: #ffffff !important;}
+.ry-btn-secondary:hover {background: #252F6A !important;color: #ffffff !important;}
+.ry-btn.ry-btn-secondary{color: #ffffff !important;background: #01BBDD !important;}
+/*.module-18 .ry-content .card img {opacity: 1;} .module-18 .ry-el-bg img {visibility: visible;} */
+
+/* QA Edits */
+.alert li:last-child {
+	margin-bottom: 0 !important;
+}
+
+body.default #ry-pg-body a:not(.ry-btn):not(.fa):hover {
+    text-decoration: underline !important;
+}
+
+.ry-multi-item-slider .work {
+    position: relative;
+    left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-row1 p, #footer-row1 span, 
+#footer-row1 a, #footer-row1 div {
+    font-size: 18px;
+}
+
+.ry-menu .ry-nav li .dropdown-toggle {
+    position: relative;
+    bottom: 2px;
+}
+
+@media (max-width: 1440px) {
+	.ry-multi-item-slider .work {
+		left: 40px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.ry-multi-item-slider .work {
+		left: 0px;
+	}
+	.testimonials-block .carousel-control.left {
+		left: -5%;    
+	}
+	.testimonials-block .carousel-control.right {
+		right: -5%;
+	}
+}
+
+@media (max-width: 991px) {
+	#ry-sidebar .ry-social-wrp div {
+		text-align: center;
+	}
+	#ry-sidebar .ry-contact-table .ry-row .ry-btn {
+		margin: 15px auto 0;
+	}
+	#ry-pg-banner .ry-bnr-wrp {
+		margin-top: 0;
+		background-position: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+     .owl-carousel:hover .owl-nav .owl-next {
+		right: 0;
+	}
+	.owl-carousel:hover .owl-nav .owl-prev {
+		left: 0;
+	}
+	.ry-multi-item-slider .work .img {
+		width: 50%;
+	}
+	.module-testimonials.option-1 .testimonials-wrapper .testimonials-block {
+		padding: 115px 30px 130px;
+	}
+	#ry-pg-banner .ry-bnr-wrp {
+		background-position: 88%;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 501px) {
+	.ry-multi-item-slider .work {
+		left: 20px;
+	}
+}
+
+
+
+
+/* */
+
+
+/* PRE-LAUNCH EDITS*/
+
+@media (max-width:991px) {
+	.mm-panel:not(#menu_container) ul.mob-dropdown.mm-listview {
+	  margin: 20px 0 0 !important;
+	  padding-right: 20px;
+	}
+	
+}
+
+@media (max-width:767px) {
+	
+	body[data-page-name="meet-the-doctor"] .module-1 .ry-box-right p {
+	   text-align: left !important;
+	}
+
+	body[data-page-name="meet-the-doctor"] .dr-name h4 {
+	   text-align: left !important;
+	}
+	
+	body[data-page-name="meet-the-doctor"] #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1 {
+	   text-align: left !important;
+	}
+	
+	
+	body[data-page-name="careers"] #ry-pg-body .ry-left p {
+	   text-align: left !important;
+	}
+
+	body[data-page-name="careers"] #ry-pg-body h3 {
+	   text-align: left !important;
+		line-height:35px;
+	}
+	
+	body[data-page-name="careers"] #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1 {
+	   text-align: left !important;
+	}
+	
+
+	body[data-page-name="services"] #ry-pg-body h3 {
+	   text-align: left !important;
+		line-height:35px;
+	}
+	body[data-page-name="services"] #ry-pg-body.services-grid .ry-text p {
+	   text-align: left !important;
+	}
+	body[data-page-name="services"] #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1 {
+	   text-align: left !important;
+	}
+	
+	body[data-page-name="reviews"] #ry-pg-body .ry-left p {
+	   text-align: left !important;
+	}
+
+	body[data-page-name="reviews"] #ry-pg-body h3 {
+	   text-align: left !important;
+		line-height:35px;
+	}
+	
+	body[data-page-name="reviews"] #ry-pg-banner .ry-bnr-wrp .ry-pg-title h1 {
+	   text-align: left !important;
+	}
+
+}
+/* PRE-LAUNCH EDITS*/
+
+/*CONTACT PAGE EDITS*/
+
+div#contact-page {
+  margin-top: 1.5em;
+}
+
+.contact-info-inner .ry-footer-detail {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 22px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+div.contact-page-info-block {
+  background-image: url(../unsafe/smart/Site-c8e4fab6-5aee-4aad-9f84-614c78b3ba35/InnerContactAssets/contact_photo.jpg);
+  background-position: 75%;
+  padding: 5em;
+  background-size: cover;
+}
+
+.contact-info-inner {
+  max-width: 400px;
+}
+
+.contact-info-inner .ry-footer-detail::before {
+  content: "";
+  font-family: fontawesome;
+  border-radius: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background: rgb(37, 47, 106);
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 30px !important;
+}
+
+.contact-info-inner .ry-footer-detail.ry-footer-phone::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.contact-info-inner .ry-footer-detail.ry-footer-address::before {
+  content: "";
+  position: relative;
+  top: -3px;
+}
+
+.contact-info-inner .ry-footer-detail.ry-footer-fax::before {
+  content: "";
+}
+
+.contact-info-inner .ry-footer-detail.ry-footer-email::before {
+  content: "";
+}
+
+.contact-info-inner .ry-footer-detail.ry-footer-phone a {
+  font-size: 23px;
+  color: rgb(1, 187, 221);
+  font-weight: bold;
+}
+
+div#contact-page .ry-footer-detail.ry-footer-email {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  position: relative;
+  left: -12px;
+  max-width: 350px;
+}
+
+div#contact-page .ry-footer-detail.ry-footer-email span {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contact-info-inner .ry-footer-detail p {
+  line-height: 28px;
+}
+
+div#contact-page .link, a.link {
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.ry-footer-detail.ry-footer-phone a {
+   font-size: 23px !important;
+  color: rgb(1, 187, 221) !important;
+  font-weight: bold !important
+}
+
+.module-16 #footer-row1 .card .card-body .ry-footer-detail p {
+  line-height: 28px;
+}
+
+div.contact-page-info-block:after {
+  background: url(../unsafe/smart/Site-c8e4fab6-5aee-4aad-9f84-614c78b3ba35/InnerContactAssets/contact_details_bottom_shadow.png);
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 50px;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width:768px) {
+  div.contact-page-info-block:after {
+	  content: '';
+	  background: rgb(255 255 255 / 84%);
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  top: 0;
+	  height: 100%;
+	  width: 100%;
+	}
+
+	.contact-info-inner {
+	  max-width: 100%;
+	  z-index: 1;
+	}
+
+	div.contact-page-info-block {
+	  padding: 4em 1.5em;
+	}
+
+	.contact-info-inner h2, .contact-info-inner p {
+	  text-align: center !important;
+	}
+
+	.contact-info-inner p {
+	  line-height: 28px;
+	}
+
+	  div#contact-page .ry-footer-detail.ry-footer-email >div {
+	  width: 80%;
+	  white-space: nowrap;
+	}
+}
+
+
+@media (max-width:500px) {
+  div#contact-page .ry-footer-detail.ry-footer-email {
+	  padding: 15px 10px;
+	}
+
+	div#contact-page .ry-footer-detail.ry-footer-email span {
+	  font-size: 12px;
+	}
+
+	div#contact-page .ry-footer-detail.ry-footer-email a {
+	  font-size: 14px;
+	}
+}
+
+
+/*CONTACT PAGE EDITS*/
+
+.resources ol {list-style: arabian;}
+
+table.pricing td {
+    padding: 30px;
+    line-height: 30px;
+}
+
+table.pricing tr:nth-of-type(odd) {background: #fafafa;}
+
+table.pricing tr:nth-of-type(even) {background: #cad9e2;}
+
+table.pricing td:first-child {font-weight: 600;}
+
+@media (max-width: 768px) {
+	table.pricing tr {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	table.pricing td:first-child {
+		padding-bottom: 0;
+	}
+}
+
+.reviews-fixed {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    width: 500px;
+    background: #fff;
+    overflow-y: scroll;
+    height: 12rem;
+    z-index: 999;
+    padding: 2rem 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/* width */
+.reviews-fixed::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.reviews-fixed::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+
+}
+ 
+/* Handle */
+.reviews-fixed::-webkit-scrollbar-thumb {
+  background: #01bbdd; 
+}
+
+/* Handle on hover */
+.reviews-fixed::-webkit-scrollbar-thumb:hover {
+  background: #252f6a; 
+}
+
+.rw-reviews-wrap.styled .rw-review-gplus .rw-comments-wrap,
+.rw-reviews-wrap.styled .rw-review-yelp .rw-comments-wrap{
+    line-height: 150% !important;
+    margin-top: 10px;
+}
+
+.reviews-fixed button.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 1;
+    z-index: 999;
+}
+
+@media only screen and (max-width: 1080px) {
+	div.reviews-fixed  {
+		display: none;
+	}
+}
+	
+ul.third-level-dropdown li a {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+	div#ry-main p, div#ry-main div p, div#ry-main ul li p, div#ry-main div,
+	div#ry-pg-body p, div#ry-pg-body div p, div#ry-pg-body ul li p, div#ry-pg-body div{
+		text-align: left;
+	}
+
+	#ry-pg-body h1, #ry-pg-body h2, #ry-pg-body h3, #ry-pg-body h4, #ry-pg-body h5, #ry-pg-body h6 {
+		line-height: 1.5 !important;
+	}
+
+	.module-appointment.option-2:after {
+		display: none;
+	}
+
+}
+
+.widget-appt-bg {
+    padding: 4rem 0;
+    border: 2px solid #01bbdd;
+    padding: 60px 7% 45px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-dialog .close-button {
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-dialog {
+    width: 90%;
+    max-width: 750px;
+    margin: 10px auto 0;
+    clear: both;
+}
+
+.modal-dialog button.close {
+    opacity: 1;
+}

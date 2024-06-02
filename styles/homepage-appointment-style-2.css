@@ -1,0 +1,252 @@
+/* OPTION 2*/
+.module-appointment.option-2 {
+	background: #252F6A;
+	padding-bottom: 160px;
+}
+.module-appointment.option-2:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30vw;
+	height: 100%;
+	background: #01BBDD;
+}
+.module-appointment.option-2:after {
+	width: calc(100% - 30vw);
+	right: 0;
+	top: 0;
+	height: calc(100% - 300px);
+	background-image: url(../static.organiclead.com/Site-c8e4fab6-5aee-4aad-9f84-614c78b3ba35/Background_images/geometric_blue.png);
+	opacity: .75;
+	content: "";
+	position: absolute;
+	background-size: cover;
+}
+.module-appointment.option-2 .section-headline h2 {
+	font-size: 42px;
+	text-align: left;
+}
+.module-appointment.option-2 .ry-text p {
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.7;
+	margin: 15px 0 30px;
+}
+.module-appointment.option-2 .ry-container .ry-content .section-headline h2, 
+.module-appointment.option-2 .ry-container .ry-content .ry-text p {
+	color: #ffffff;
+}
+.module-appointment.option-2:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30vw;
+	height: 100%;
+	background: #252F6A;
+}
+.module-appointment.option-2 .ry-container .ry-content {
+	padding: 160px 0;
+	display: flex;
+	justify-content: center;
+}
+.module-appointment.option-2 .ry-container .ry-content .each-block {
+	max-width: 1300px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+.module-appointment.option-2 .ry-container .ry-content .each-block .request-block:nth-child(1) {
+	max-width: 460px;
+}
+.module-appointment.option-2 .ry-container .ry-content .each-block .request-block:nth-child(1) .photo {
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 100%;
+}
+.module-appointment.option-2 .ry-container .ry-content .each-block .request-block:nth-child(1) .photo img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.module-appointment.option-2 .ry-container .ry-content .each-block .request-block:nth-child(2) {
+	padding-left: 4.9vw;
+}
+.module-appointment.option-2 .btn {
+	border-radius: 0;
+	padding: 13px 20px;
+	color: #ffffff;
+	background: #252F6A;
+	border: unset !important; }
+.module-appointment.option-2 .btn {
+	width: 100%;
+}
+.module-appointment.option-2  .carousel-control {
+	background: transparent;
+	width: auto;
+	height: auto;
+}
+
+.module-appointment.option-2 .carousel-control span {
+	margin: 0;
+}
+
+.module-appointment.option-2 .carousel-control span:before {
+	border: solid #252F6A;
+	border-width: 0 2px 2px 0;
+	display: inline-block;
+	padding: 7px;
+	content: "";
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.module-appointment.option-2 .carousel-control.right span:before {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.module-appointment.option-2 .carousel-control.right {
+	right: 30px;
+}
+
+.module-appointment.option-2 .carousel-control.left {
+	left: 30px;
+}
+
+.module-appointment.option-2 .ry-container-full {
+	display: flex;
+	justify-content: flex-end;
+}
+.module-appointment.option-2 .ry-container-full .ry-content {
+	width: calc(100% - 8.333vw);
+}
+.module-appointment.option-2 .ry-container-full .ry-content .form-block {
+	padding: 5vw 8.333vw;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+.module-appointment.option-2 .ry-container-full .ry-content .form-block .each-block:not(.cmsForm) {
+	max-width: 360px;
+}
+.module-appointment.option-2 .ry-container-full .ry-content .form-block .each-block.cmsForm {
+	padding-left: 8.333vw;
+}
+.module-appointment.option-2 .form-grid {
+	width: calc(100% + 10px);
+	margin-left: -10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.module-appointment.option-2 .form-grid .input-form-wrap {
+	width: calc(50% - 10px);
+	margin-left: 10px;
+}
+.module-appointment.option-2 .form-grid .input-form-wrap .form-group {
+	margin-bottom: 10px;
+}
+.module-appointment.option-2 .form-grid .input-form-wrap .form-control {
+	height: 60px;
+	border-radius: unset;
+	box-shadow: unset;
+	padding-left: 55px;
+	font-size: 18px;
+}
+.module-appointment.option-2 .form-grid .input-form-wrap textarea.form-control {
+	height: 340px;
+	padding-top: 15px;
+	resize: unset;
+}
+.module-appointment.option-2 .form-grid .input-form-wrap .svg-fields {
+	position: absolute;
+	top: 20px;
+	left: 25px;
+}
+.module-appointment.option-2 .form-grid .input-form-wrap .svg-fields svg {
+	width: 18px;
+	opacity: .5;
+}
+.module-appointment.option-2 .form-grid .button-wrap {
+	width: calc(100% - 10px);
+	margin-left: 10px;
+}
+
+.button-wrap .form-group {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 1660px) {
+	.module-appointment.option-2 .ry-container .ry-content {
+		padding: 100px 0;
+	}
+	.module-appointment.option-2 {
+		padding-bottom: 100px;
+	}
+	.module-appointment.option-2 .ry-container-full .ry-content .form-block {
+		padding: 5vw;
+	}
+	.module-appointment.option-2 .ry-container-full .ry-content .form-block .each-block.cmsForm {
+		padding-left: 60px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.module-appointment.option-2 .ry-container-full .ry-content .form-block {
+		padding: 5vw;
+		flex-direction: column;
+	}
+	.module-appointment.option-2 .form-grid .input-form-wrap {
+		width: calc(100% - 10px);
+	}
+	.module-appointment.option-2 .ry-container-full .ry-content .form-block .each-block:not(.cmsForm) {
+		max-width: 100%;
+	}
+	.module-appointment.option-2 .ry-container-full .ry-content .form-block .each-block.cmsForm {
+		padding-left: 0;
+	}
+	.module-appointment.option-2 .form-grid .input-form-wrap textarea.form-control {
+		height: 200px;
+	}
+}
+@media (max-width: 991px) {
+	.module-appointment.option-2 .ry-container .ry-content .each-block {
+		flex-direction: column;
+	}
+	.module-appointment.option-2 .ry-container .ry-content .each-block .request-block:nth-child(2) {
+		padding-left: 0;
+		padding-top: 30px;
+	}
+	.module-appointment.option-2 .ry-container-full {
+		display: flex;
+		justify-content: center;
+	}
+	.module-appointment.option-2 .section-headline h2 {
+		text-align: center;
+		font-size: 230%;
+	}
+	.module-appointment.option-2 .ry-text p {
+		font-size: 90%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 414px) {
+
+	.module-appointment.option-2 .section-headline h2 {
+		font-size: 160%;
+	}
+	.module-appointment.option-2 .ry-flex .ry-each .ry-text p {
+		font-size: 16px;
+	}	
+}
+
